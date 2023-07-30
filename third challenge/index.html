@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="energy,wubshet,thirdchallenge,website">
+    <meta name="keywords" content="this is used to deliver an idea about the real one!">
+    <title>Energy</title>
+    <style>
+
+        body{
+            width: 99%;
+
+        }
+        #abovetxt{
+            text-align: center;letter-spacing: 15px;font-size: 70px;
+        }
+        header{
+            display:flex;
+            width: 100%;
+            background-color: rgb(6, 219, 13);
+            font-size: 46px;
+            text-transform:capitalize;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0px;
+        }
+        .links{
+            display: inline-flex;
+            text-align: right;
+            margin-left: 5px;
+            margin-right: 5px;
+            
+        }
+        .home-links{
+            text-decoration: none;   
+            padding: 12px;     
+        }
+        .home-links:hover{
+            background-color: black;
+            color:white;
+
+        }
+        hr{
+            margin: 0;
+            height: 5px;
+            background-color: black;
+        }
+
+
+
+
+
+        .content{
+            width: 100%;
+        }
+        .middlediv{
+            display: flex;
+        }
+    
+        .round-image{
+            box-shadow: 4px 2px 10px red;
+            max-width: 100%;
+            height: 300px;
+            border: 3px dotted red;
+            border-radius: 200px 200px 200px 200px;
+            
+        }
+        #span1{
+            text-align: center;
+            font-size: 40px;
+            opacity: 0.5;
+            z-index: 2;
+            position:fixed;
+            right: 0%;
+            bottom: 0%;
+            color:white;
+            font-family: monospace;
+            font-size: 400%;
+            text-transform: uppercase;
+            border: 4px solid black;
+            border-radius: 20%;
+            background-color: black;
+        }
+        .image-div{
+            width: 50%;
+            text-align: center;
+            font-size: 200%;
+            font-weight: 700;
+            text-transform: capitalize;
+        }
+        .energy{
+            margin: 40px 20px 20px 20px;
+            letter-spacing: 3px;
+            
+        }
+
+
+        
+
+        #articles{
+            text-align: center;
+            background-color:#eee;
+            letter-spacing: 4px;
+            font-size: 30px;
+            padding: 40px;
+        }
+
+
+
+        
+        .section-image{
+            display: flex;
+            max-height: 100%;
+        }
+        .images{
+            box-shadow: 4px 2px 10px black;
+            width: 20%;
+            background-color: none;
+            margin: 6%;
+            border-radius: 50px;
+            max-height: 100%;
+        }
+        .imginimages{
+            border-radius: 50px;
+            max-width: 100%;
+            height: 100%;
+        }
+        #lists{
+            padding-left: 0px;
+            text-align: center;
+            list-style-type: upper-alpha;
+            font-size: 30px;
+            visibility: hidden;
+            display: none;
+        }
+        footer{
+            background-color: gainsboro;
+            text-align: center;
+            font-size: 22px;
+        }
+        @media only screen and ( max-width: 700px) {
+            body{
+                font-size: 10;
+                width: 100%;
+                margin: 0px;
+            }
+            #abovetxt{
+                font-size: 10px;
+                letter-spacing: 0px;
+                color: rgb(3, 98, 194);
+            }
+            header{
+                width: 100%;
+                background-color: rgb(6, 187, 219);
+                font-size: 6px;
+                text-transform:capitalize;
+                text-align: center;
+                padding: 0px;
+                margin: 0px;
+                position: sticky;
+            }
+            .round-image{
+            box-shadow: 4px 2px 10px red;
+            max-width: 100%;
+            height: 100px;
+            border: 1px solid rgb(0, 1, 10);
+            border-radius: 10px;
+            
+        }
+            .section-image{
+                display: block;
+                border-radius: 0;
+            }
+            #span1{
+            text-align: center;
+            font-size: 10px;
+            opacity: 0.2;
+            z-index: 2;
+            position:fixed;
+            right: 0%;
+            bottom: 0%;
+            color:white;
+            font-family: monospace;
+            font-size: 400%;
+            text-transform: uppercase;
+            border: 4px solid black;
+            border-radius: 20%;
+            background-color: black;
+
+            }
+            #articles{
+                box-shadow: 3px 4px 6px black;
+                border: 3px groove green;
+                margin: 10px;
+                padding: 0px;
+                letter-spacing: 0px;
+                font-size: 12px;
+                width: 90%;
+                background-color: lightgoldenrodyellow;
+            }
+            .image-div{
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 0;
+                text-align: left;
+                font-size: 20%;
+                border: none;
+                height: auto;
+                margin: 3px;
+                text-align: center;
+                padding-left: 20%;
+            }
+            .middlediv{
+                display:block ;
+                text-align: center;
+                width: 100%;
+            }
+            .energy{
+                color: aqua;
+                margin: 0px;
+                letter-spacing: 0px;
+                font-size: 5px;
+            }
+            .images{
+                width: 97%;
+                margin: 5px 0px 0px 0px;
+                font-size: 5px;
+            }
+            #ddd{
+                display:inline;
+                width: 20%;
+                padding-right: px;
+            }
+            .captions{
+                text-align: center;
+                padding-left: 20px;
+            }
+            #lists{
+                color: #222;
+       0         font-size: 5px;
+                text-align: center;
+                visibility: visible;
+                display: block;
+                list-style-type: decimal;
+            }
+            .way{
+                color: #122;
+                font-size: 6px;
+            }
+            footer{
+                font-size: 3px;
+                margin: 0px;
+                padding: 0px;
+            }
+            
+
+        }
+            
+        
+
+    </style>
+</head>
+<body>
+    <div class="main-body">
+        <div class="the-header">
+            <h1 id="abovetxt" >&boxHd;&boxHd;&boxHd; s o f t w a r e &boxHd;&boxHd;&boxHd;</h1>
+
+            <header >
+                <div style="width:49%;padding: 12px;text-align: left;">
+                    <a class="home-links" href="">&#12; Home</a>
+                    <a style="color: white;"title="download pdf about software" class="home-links " href="software.pdf" download="software.pdf">&DownArrowBar;</a>
+                    <a style="color: red;"title="dark web link" class="home-links " href="http://torlinkbgs6aabns.onion/">&Dstrok;&HorizontalLine;&wcirc;&Ecirc;&Bfr;</a>
+                </div>
+                <div style="width:50%;text-align: right;margin-right: 10px;">
+                   <div class="links"><a class="home-links" href="me.txt">about</a> </div>
+                   <div class="links"><a class="home-links" href="this.txt">contact</a> </div>
+                   <div class="links"><a class="home-links" href="energy.docx">other</a> </div>
+                </div>
+                
+            </header>
+        </div>
+        <hr>
+        <div class="content">
+            <div class="middlediv">
+                <div class="image-div">
+                    <img class="round-image"src="image2.jpg" alt="i didn't get it">
+                    <span id="span1">energy &rightarrow;<span style=" color:red;border-radius: 50%; background-color: yellow;">sun</span></span>
+                </div>
+                <div class="image-div">
+                    <p class="energy">did you know about energy of energy?</p>
+                    <p class="energy">if you didn't know</p>
+                    <p class="energy">i try to give some idea about energy</p>
+                </div>
+    
+            </div>
+            <article id="articles">
+                <div>
+                    <p>&circlearrowright;&circlearrowright;&circlearrowright;&circlearrowright;&circlearrowright;</p>
+                    <p>&circlearrowright;&circlearrowleft;    adaption is acollection of energy!&circlearrowleft;    &circlearrowright; </p>
+                    <p>guys! you can read more about energy by cliick download button.</p>
+                    <p>Energy ------- recycling</p>
+                    <p><a href="energy.docx" download="energy.docx" >&downarrow;Download</a></p>
+                </div>
+            </article>
+            <section class="section-image">
+                <li id="lists">ETHIOPIA</li>
+                <div class="images"> 
+                    <img id="ddd" class="imginimages" src= "image2.jpg">
+                    <p id="ddd" class="captions"style="text-align: center;"> who is tthis </p>   
+                     
+                </div>
+                <li id="lists">privacy</li>
+                <div class="images">
+                    <img id="ddd" class="imginimages" src= "suitcase.png">
+                    <p id="ddd" class="captions"style="text-align: center;">(breifcase)</p>
+                </div>
+                <li id="lists">Ethiopia</li>
+                <div class="images">
+                    <img id="ddd" class="imginimages" src="image2.jpg">
+                    <p id="ddd"class="captions" style="text-align: center;">this is ethiopia </p>
+                </div>
+            </section>
+        </div>
+        <center ><span class="way" style="letter-spacing: 3px;font-weight: 700;font-size: 30px;margin-top:3px ;">ለበለጠ መረጃ ከታች ያሉትን ሊንኮች  ይጫኑ !</span></center>
+        <div class="the-footer">
+            <hr style="margin-top:10px ;">
+        
+            <footer>
+
+                <p>&copy;<a style="background-color: aquamarine;" href="copyright.txt">copyright</a> 2015 EC; this is the third challenge and i posted something about energy in this website.</p>
+                <p>if you want to know about the auther you can <a href="me.txt" style="background-color: aquamarine; text-decoration: none;color: rgb(13, 0, 252);">click here:</a></p>
+                <p>  i wanna try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try</p>
+                <p> you shall to try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try</p>
+                <p>  try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try try</p>
+                <p>and retry! rotary world</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
